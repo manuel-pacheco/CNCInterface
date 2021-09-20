@@ -1,0 +1,1728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>893</width>
+    <height>662</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>MS Shell Dlg 2</family>
+   </font>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="tabletTracking">
+   <bool>false</bool>
+  </property>
+  <property name="acceptDrops">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_6">
+    <item row="0" column="0">
+     <widget class="QSplitter" name="splitter_6">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="QSplitter" name="splitter_4">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+      <widget class="QSplitter" name="splitter_9">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <widget class="QSplitter" name="splitter_10">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <widget class="QWidget" name="layoutWidget">
+         <layout class="QGridLayout" name="gridLayout_2">
+          <item row="0" column="0" colspan="6">
+           <layout class="QGridLayout" name="gridLayout_4">
+            <item row="0" column="0">
+             <layout class="QHBoxLayout" name="horizontalLayout">
+              <item>
+               <widget class="QLabel" name="label_6">
+                <property name="maximumSize">
+                 <size>
+                  <width>52</width>
+                  <height>23</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;COM&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="ConectCOM">
+                <property name="maximumSize">
+                 <size>
+                  <width>75</width>
+                  <height>23</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>(+)com</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_8">
+                <property name="maximumSize">
+                 <size>
+                  <width>52</width>
+                  <height>23</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Baudios&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="comboBox">
+                <property name="maximumSize">
+                 <size>
+                  <width>62</width>
+                  <height>20</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">font: 8pt &quot;MS Shell Dlg 2&quot;;</string>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>4800</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>9600</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>19200</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>38400</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>57600</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>115200</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>230400</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>460800</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>921600</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="Conectar">
+                <property name="maximumSize">
+                 <size>
+                  <width>52</width>
+                  <height>23</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true"/>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item row="1" column="0">
+             <layout class="QGridLayout" name="gridLayout_3">
+              <item row="0" column="0">
+               <widget class="QLabel" name="label">
+                <property name="maximumSize">
+                 <size>
+                  <width>47</width>
+                  <height>20</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Archivo:</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1">
+               <widget class="QLineEdit" name="Direccion">
+                <property name="maximumSize">
+                 <size>
+                  <width>234</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="2">
+               <widget class="QPushButton" name="Folder">
+                <property name="maximumSize">
+                 <size>
+                  <width>24</width>
+                  <height>13</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">#Folder {
+background-color: transparent;
+	border-image: url(:/Iconos/car_off.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+#Folder:pressed
+{
+   
+	border-image: url(:/Iconos/car_on.png);
+}</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLabel" name="label_5">
+                <property name="maximumSize">
+                 <size>
+                  <width>47</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Progreso:</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QProgressBar" name="progressBar">
+                <property name="maximumSize">
+                 <size>
+                  <width>234</width>
+                  <height>21</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true"/>
+                </property>
+                <property name="value">
+                 <number>24</number>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="2">
+               <widget class="QPushButton" name="StartSend">
+                <property name="maximumSize">
+                 <size>
+                  <width>24</width>
+                  <height>13</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border-image: url(:/Iconos/off.png);
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item row="2" column="0">
+             <layout class="QVBoxLayout" name="verticalLayout">
+              <item>
+               <widget class="QLineEdit" name="lineEdit">
+                <property name="maximumSize">
+                 <size>
+                  <width>317</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QListWidget" name="listWidget">
+                <property name="maximumSize">
+                 <size>
+                  <width>317</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="StatusInform">
+                <property name="styleSheet">
+                 <string notr="true"/>
+                </property>
+                <property name="text">
+                 <string>(+)Status</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <layout class="QGridLayout" name="gridLayout">
+                <item row="1" column="0">
+                 <widget class="QSpinBox" name="SpeedX">
+                  <property name="maximumSize">
+                   <size>
+                    <width>101</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="0">
+                 <widget class="QSpinBox" name="SpeedY">
+                  <property name="maximumSize">
+                   <size>
+                    <width>101</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </widget>
+                </item>
+                <item row="3" column="1">
+                 <widget class="QLabel" name="label_2">
+                  <property name="maximumSize">
+                   <size>
+                    <width>101</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Z&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="0">
+                 <widget class="QLabel" name="label_9">
+                  <property name="maximumSize">
+                   <size>
+                    <width>101</width>
+                    <height>13</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>Velocidad</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="2">
+                 <widget class="QSpinBox" name="AxcelY">
+                  <property name="maximumSize">
+                   <size>
+                    <width>101</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="2">
+                 <widget class="QLabel" name="label_10">
+                  <property name="maximumSize">
+                   <size>
+                    <width>101</width>
+                    <height>13</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>Aceleración</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="1">
+                 <widget class="QLabel" name="label_4">
+                  <property name="maximumSize">
+                   <size>
+                    <width>101</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;X&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="4" column="0" colspan="3">
+                 <layout class="QHBoxLayout" name="horizontalLayout_2">
+                  <item>
+                   <widget class="QRadioButton" name="changeROUTER">
+                    <property name="maximumSize">
+                     <size>
+                      <width>154</width>
+                      <height>17</height>
+                     </size>
+                    </property>
+                    <property name="tabletTracking">
+                     <bool>false</bool>
+                    </property>
+                    <property name="acceptDrops">
+                     <bool>false</bool>
+                    </property>
+                    <property name="text">
+                     <string>ConfiguracionCNCRouter</string>
+                    </property>
+                    <property name="checked">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QRadioButton" name="changeLASER">
+                    <property name="maximumSize">
+                     <size>
+                      <width>153</width>
+                      <height>17</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>ConfiguraciónCNCLaser</string>
+                    </property>
+                    <property name="checked">
+                     <bool>false</bool>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item row="3" column="2">
+                 <widget class="QSpinBox" name="AxcelZ">
+                  <property name="maximumSize">
+                   <size>
+                    <width>101</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </widget>
+                </item>
+                <item row="3" column="0">
+                 <widget class="QSpinBox" name="SpeedZ">
+                  <property name="maximumSize">
+                   <size>
+                    <width>101</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="1">
+                 <widget class="QLabel" name="label_3">
+                  <property name="maximumSize">
+                   <size>
+                    <width>101</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Y&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="2">
+                 <widget class="QSpinBox" name="AxcelX">
+                  <property name="maximumSize">
+                   <size>
+                    <width>101</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="1">
+                 <widget class="QLabel" name="label_11">
+                  <property name="maximumSize">
+                   <size>
+                    <width>101</width>
+                    <height>13</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>Eje</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+          <item row="1" column="3">
+           <widget class="QSplitter" name="splitter_3">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <widget class="QPushButton" name="upLeft_11">
+             <property name="minimumSize">
+              <size>
+               <width>42</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>47</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="acceptDrops">
+              <bool>false</bool>
+             </property>
+             <property name="autoFillBackground">
+              <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#upLeft_11 {
+background-color: transparent;
+border-image: url(:/Iconos/UpperRightOff.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+#upLeft_11:pressed
+{
+   border-image: url(:/Iconos/UpperRight.png);
+}</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="flat">
+              <bool>false</bool>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="upLeft_10">
+             <property name="minimumSize">
+              <size>
+               <width>42</width>
+               <height>41</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>47</width>
+               <height>41</height>
+              </size>
+             </property>
+             <property name="acceptDrops">
+              <bool>false</bool>
+             </property>
+             <property name="autoFillBackground">
+              <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#upLeft_10 {
+background-color: transparent;
+border-image: url(:/Iconos/Derecha_off.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+#upLeft_10:pressed
+{
+   border-image: url(:/Iconos/Derecha_on.png);
+}</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="flat">
+              <bool>false</bool>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="upLeft_8">
+             <property name="minimumSize">
+              <size>
+               <width>42</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>47</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="acceptDrops">
+              <bool>false</bool>
+             </property>
+             <property name="autoFillBackground">
+              <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#upLeft_8 {
+background-color: transparent;
+border-image: url(:/Iconos/LowerRightOff.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+#upLeft_8:pressed
+{
+   border-image: url(:/Iconos/LowerRight.png);
+}</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="flat">
+              <bool>false</bool>
+             </property>
+            </widget>
+           </widget>
+          </item>
+          <item row="1" column="4">
+           <widget class="QSplitter" name="splitter_5">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <widget class="QPushButton" name="upZ">
+             <property name="minimumSize">
+              <size>
+               <width>42</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>47</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="acceptDrops">
+              <bool>false</bool>
+             </property>
+             <property name="autoFillBackground">
+              <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#upZ{
+background-color: transparent;
+border-image: url(:/Iconos/upOff.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+#upZ:pressed
+{
+   border-image: url(:/Iconos/up.png);
+}</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="flat">
+              <bool>false</bool>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="HOMEZ">
+             <property name="minimumSize">
+              <size>
+               <width>42</width>
+               <height>41</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>47</width>
+               <height>41</height>
+              </size>
+             </property>
+             <property name="contextMenuPolicy">
+              <enum>Qt::DefaultContextMenu</enum>
+             </property>
+             <property name="acceptDrops">
+              <bool>false</bool>
+             </property>
+             <property name="autoFillBackground">
+              <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#HOMEZ{
+background-color: transparent;
+border-image: url(:/Iconos/Home.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+#HOMEZ:pressed
+{
+   border-image: url(:/Iconos/HomeOn.png);
+}</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="autoDefault">
+              <bool>false</bool>
+             </property>
+             <property name="default">
+              <bool>false</bool>
+             </property>
+             <property name="flat">
+              <bool>false</bool>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="LOWZ">
+             <property name="minimumSize">
+              <size>
+               <width>42</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>47</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="acceptDrops">
+              <bool>false</bool>
+             </property>
+             <property name="autoFillBackground">
+              <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#LOWZ{
+background-color: transparent;
+border-image: url(:/Iconos/downOff.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+#LOWZ:pressed
+{
+   border-image: url(:/Iconos/down.png)
+}</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="flat">
+              <bool>false</bool>
+             </property>
+            </widget>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QSplitter" name="splitter">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <widget class="QPushButton" name="upLeft_6">
+             <property name="minimumSize">
+              <size>
+               <width>42</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>47</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="acceptDrops">
+              <bool>false</bool>
+             </property>
+             <property name="autoFillBackground">
+              <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#upLeft_6 {
+background-color: transparent;
+border-image: url(:/Iconos/UpperLeftOff.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+#upLeft_6:pressed
+{
+   border-image: url(:/Iconos/UpperLeft.png);
+}</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="flat">
+              <bool>false</bool>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="upLeft_2">
+             <property name="minimumSize">
+              <size>
+               <width>42</width>
+               <height>41</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>47</width>
+               <height>41</height>
+              </size>
+             </property>
+             <property name="acceptDrops">
+              <bool>false</bool>
+             </property>
+             <property name="autoFillBackground">
+              <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#upLeft_2 {
+background-color: transparent;
+border-image: url(:/Iconos/LeftOff.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+#upLeft_2:pressed
+{
+   border-image: url(:/Iconos/Left.png);
+}</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="flat">
+              <bool>false</bool>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="upLeft_7">
+             <property name="minimumSize">
+              <size>
+               <width>42</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>47</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="acceptDrops">
+              <bool>false</bool>
+             </property>
+             <property name="autoFillBackground">
+              <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#upLeft_7 {
+background-color: transparent;
+border-image: url(:/Iconos/LowerLeftOff.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+#upLeft_7:pressed
+{
+   border-image: url(:/Iconos/LowerLeft.png);
+}</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="flat">
+              <bool>false</bool>
+             </property>
+            </widget>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QSplitter" name="splitter_7">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <widget class="QLabel" name="label_12">
+             <property name="maximumSize">
+              <size>
+               <width>47</width>
+               <height>15</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;TextLabel&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+            <widget class="QSlider" name="verticalSlider">
+             <property name="maximumSize">
+              <size>
+               <width>47</width>
+               <height>113</height>
+              </size>
+             </property>
+             <property name="minimum">
+              <number>100</number>
+             </property>
+             <property name="maximum">
+              <number>1700</number>
+             </property>
+             <property name="pageStep">
+              <number>100</number>
+             </property>
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="tickPosition">
+              <enum>QSlider::TicksBothSides</enum>
+             </property>
+            </widget>
+           </widget>
+          </item>
+          <item row="1" column="7">
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <item>
+             <widget class="QPushButton" name="CostumButton2">
+              <property name="minimumSize">
+               <size>
+                <width>104</width>
+                <height>120</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>104</width>
+                <height>120</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">#CostumButton2 {
+background-color: transparent;
+border-image: url(:/Iconos/Background.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+#CostumButton2:pressed
+{
+   border-image: url(:/Iconos/Background_on.png);
+}</string>
+              </property>
+              <property name="text">
+               <string>PushButton</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="CostumButton4">
+              <property name="minimumSize">
+               <size>
+                <width>104</width>
+                <height>120</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>104</width>
+                <height>120</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">#CostumButton4 {
+background-color: transparent;
+border-image: url(:/Iconos/Background.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+#CostumButton4:pressed
+{
+   border-image: url(:/Iconos/Background_on.png);
+}</string>
+              </property>
+              <property name="text">
+               <string>PushButton</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="CostumButton2_2">
+              <property name="minimumSize">
+               <size>
+                <width>105</width>
+                <height>120</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>105</width>
+                <height>120</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">#CostumButton2_2 {
+background-color: transparent;
+border-image: url(:/Iconos/Background.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+#CostumButton2_2:pressed
+{
+   border-image: url(:/Iconos/Background_on.png);
+}</string>
+              </property>
+              <property name="text">
+               <string>PushButton</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="CostumButton3">
+              <property name="minimumSize">
+               <size>
+                <width>104</width>
+                <height>120</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>104</width>
+                <height>120</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">#CostumButton3 {
+background-color: transparent;
+border-image: url(:/Iconos/Background.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+#CostumButton3:pressed
+{
+   border-image: url(:/Iconos/Background_on.png);
+}</string>
+              </property>
+              <property name="text">
+               <string>PushButton</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QSplitter" name="splitter_17">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <widget class="QPushButton" name="pushButton_5">
+               <property name="minimumSize">
+                <size>
+                 <width>120</width>
+                 <height>120</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>120</width>
+                 <height>120</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">#pushButton_5 {
+background-color: transparent;
+border-image: url(:/Iconos/stopon.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+#pushButton_5:pressed
+{
+   border-image: url(:/Iconos/stop.png);
+}</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item row="0" column="7">
+           <widget class="QTabWidget" name="tabWidget">
+            <property name="toolTip">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="currentIndex">
+             <number>1</number>
+            </property>
+            <widget class="QWidget" name="tab">
+             <attribute name="title">
+              <string>Tab 1</string>
+             </attribute>
+             <layout class="QGridLayout" name="gridLayout_7">
+              <item row="0" column="0">
+               <widget class="WidgetOpenGL" name="widget" native="true"/>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="tab_2">
+             <attribute name="title">
+              <string>Tab 2</string>
+             </attribute>
+             <layout class="QGridLayout" name="gridLayout_10">
+              <item row="0" column="0">
+               <layout class="QGridLayout" name="gridLayout_9">
+                <item row="0" column="1" rowspan="5">
+                 <layout class="QVBoxLayout" name="verticalLayout_2">
+                  <item>
+                   <widget class="QLabel" name="label_25">
+                    <property name="maximumSize">
+                     <size>
+                      <width>79</width>
+                      <height>74</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:48pt; font-style:italic;&quot;&gt;-&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <spacer name="verticalSpacer_4">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>20</width>
+                      <height>40</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_21">
+                    <property name="maximumSize">
+                     <size>
+                      <width>79</width>
+                      <height>73</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:48pt;&quot;&gt;X&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <spacer name="verticalSpacer_3">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>20</width>
+                      <height>40</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_22">
+                    <property name="maximumSize">
+                     <size>
+                      <width>79</width>
+                      <height>74</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:48pt;&quot;&gt;Y&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <spacer name="verticalSpacer_2">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>20</width>
+                      <height>40</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_23">
+                    <property name="maximumSize">
+                     <size>
+                      <width>79</width>
+                      <height>73</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:48pt;&quot;&gt;Z&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <spacer name="verticalSpacer">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>20</width>
+                      <height>40</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_24">
+                    <property name="maximumSize">
+                     <size>
+                      <width>79</width>
+                      <height>73</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:48pt;&quot;&gt;C&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item row="0" column="0">
+                 <widget class="QLabel" name="label_7">
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>76</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Coordenadas &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;actuales&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="4" column="0">
+                 <widget class="QLCDNumber" name="lcdNumber_4">
+                  <property name="digitCount">
+                   <number>6</number>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="0">
+                 <widget class="QLCDNumber" name="lcdNumber_6">
+                  <property name="digitCount">
+                   <number>6</number>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="0">
+                 <widget class="QLCDNumber" name="lcdNumber_5">
+                  <property name="minimumSize">
+                   <size>
+                    <width>180</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true"/>
+                  </property>
+                  <property name="frameShadow">
+                   <enum>QFrame::Raised</enum>
+                  </property>
+                  <property name="midLineWidth">
+                   <number>0</number>
+                  </property>
+                  <property name="smallDecimalPoint">
+                   <bool>false</bool>
+                  </property>
+                  <property name="digitCount">
+                   <number>6</number>
+                  </property>
+                  <property name="segmentStyle">
+                   <enum>QLCDNumber::Filled</enum>
+                  </property>
+                  <property name="intValue" stdset="0">
+                   <number>0</number>
+                  </property>
+                 </widget>
+                </item>
+                <item row="3" column="0">
+                 <widget class="QLCDNumber" name="lcdNumber_2">
+                  <property name="digitCount">
+                   <number>6</number>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="2" rowspan="5">
+                 <layout class="QGridLayout" name="gridLayout_5">
+                  <item row="2" column="0">
+                   <widget class="QLCDNumber" name="lcdNumber_3">
+                    <property name="digitCount">
+                     <number>6</number>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="4" column="0">
+                   <widget class="QLCDNumber" name="lcdNumber_7">
+                    <property name="digitCount">
+                     <number>6</number>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="0">
+                   <widget class="QLabel" name="label_16">
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>76</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Coordenadas &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;de trabajo&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="0">
+                   <widget class="QLCDNumber" name="lcdNumber">
+                    <property name="minimumSize">
+                     <size>
+                      <width>180</width>
+                      <height>0</height>
+                     </size>
+                    </property>
+                    <property name="digitCount">
+                     <number>6</number>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="3" column="0">
+                   <widget class="QLCDNumber" name="lcdNumber_8">
+                    <property name="digitCount">
+                     <number>6</number>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item row="4" column="3">
+                 <widget class="QPushButton" name="CostumButton5_2">
+                  <property name="minimumSize">
+                   <size>
+                    <width>64</width>
+                    <height>23</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>86</width>
+                    <height>86</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">#CostumButton5_2 {
+background-color: transparent;
+border-image: url(:/Iconos/Background.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+#CostumButton5_2:pressed
+{
+   border-image: url(:/Iconos/Background_on.png);
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>ops</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="3" column="3">
+                 <widget class="QPushButton" name="CostumButton6">
+                  <property name="minimumSize">
+                   <size>
+                    <width>64</width>
+                    <height>23</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>86</width>
+                    <height>86</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">#CostumButton6 {
+background-color: transparent;
+border-image: url(:/Iconos/Background.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+#CostumButton6:pressed
+{
+   border-image: url(:/Iconos/Background_on.png);
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>ZERO Z</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="3">
+                 <widget class="QPushButton" name="CostumButton5">
+                  <property name="minimumSize">
+                   <size>
+                    <width>64</width>
+                    <height>23</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>86</width>
+                    <height>86</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">#CostumButton5 {
+background-color: transparent;
+border-image: url(:/Iconos/Background.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+#CostumButton5:pressed
+{
+   border-image: url(:/Iconos/Background_on.png);
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>ZERO Y</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="3">
+                 <widget class="QPushButton" name="CostumButton7">
+                  <property name="minimumSize">
+                   <size>
+                    <width>64</width>
+                    <height>23</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>86</width>
+                    <height>86</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">#CostumButton7 {
+background-color: transparent;
+border-image: url(:/Iconos/Background.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+#CostumButton7:pressed
+{
+   border-image: url(:/Iconos/Background_on.png);
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>ZERO X</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QSplitter" name="splitter_2">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <widget class="QPushButton" name="upLeft_3">
+             <property name="minimumSize">
+              <size>
+               <width>43</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>47</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="acceptDrops">
+              <bool>false</bool>
+             </property>
+             <property name="autoFillBackground">
+              <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#upLeft_3 {
+background-color: transparent;
+border-image: url(:/Iconos/upOff.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+#upLeft_3:pressed
+{
+   border-image: url(:/Iconos/up.png);
+}</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="flat">
+              <bool>false</bool>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="upLeft_9">
+             <property name="minimumSize">
+              <size>
+               <width>43</width>
+               <height>41</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>47</width>
+               <height>41</height>
+              </size>
+             </property>
+             <property name="contextMenuPolicy">
+              <enum>Qt::DefaultContextMenu</enum>
+             </property>
+             <property name="acceptDrops">
+              <bool>false</bool>
+             </property>
+             <property name="autoFillBackground">
+              <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#upLeft_9 {
+background-color: transparent;
+border-image: url(:/Iconos/Home.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+#upLeft_9:pressed
+{
+   border-image: url(:/Iconos/HomeOn.png);
+}</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="autoDefault">
+              <bool>false</bool>
+             </property>
+             <property name="default">
+              <bool>false</bool>
+             </property>
+             <property name="flat">
+              <bool>false</bool>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="upLeft_4">
+             <property name="minimumSize">
+              <size>
+               <width>43</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>47</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="acceptDrops">
+              <bool>false</bool>
+             </property>
+             <property name="autoFillBackground">
+              <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#upLeft_4 {
+background-color: transparent;
+border-image: url(:/Iconos/downOff.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+#upLeft_4:pressed
+{
+   border-image: url(:/Iconos/down.png)
+}</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="flat">
+              <bool>false</bool>
+             </property>
+            </widget>
+           </widget>
+          </item>
+          <item row="1" column="5">
+           <widget class="QSplitter" name="splitter_8">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <widget class="QLabel" name="label_13">
+             <property name="maximumSize">
+              <size>
+               <width>47</width>
+               <height>15</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+            <widget class="QSlider" name="verticalSlider_2">
+             <property name="maximumSize">
+              <size>
+               <width>47</width>
+               <height>113</height>
+              </size>
+             </property>
+             <property name="maximum">
+              <number>10</number>
+             </property>
+             <property name="pageStep">
+              <number>1</number>
+             </property>
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="tickPosition">
+              <enum>QSlider::TicksBothSides</enum>
+             </property>
+             <property name="tickInterval">
+              <number>0</number>
+             </property>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>893</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArchivo">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <addaction name="actionCerrar"/>
+   </widget>
+   <widget class="QMenu" name="menuInfo">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionInfo"/>
+   </widget>
+   <addaction name="menuArchivo"/>
+   <addaction name="menuInfo"/>
+  </widget>
+  <action name="actionInfo">
+   <property name="text">
+    <string>Info</string>
+   </property>
+  </action>
+  <action name="actionCerrar">
+   <property name="text">
+    <string>Cerrar</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>WidgetOpenGL</class>
+   <extends>QWidget</extends>
+   <header location="global">widgetopengl.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

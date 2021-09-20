@@ -1,0 +1,34 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Iconos/Background.png</file>
+        <file>Iconos/Background_on.png</file>
+        <file>Iconos/Car.png</file>
+        <file>Iconos/car_off.png</file>
+        <file>Iconos/car_on.png</file>
+        <file>Iconos/Derecha_off.png</file>
+        <file>Iconos/Derecha_on.png</file>
+        <file>Iconos/down.png</file>
+        <file>Iconos/downOff.png</file>
+        <file>Iconos/Home.png</file>
+        <file>Iconos/HomeOn.png</file>
+        <file>Iconos/Left.png</file>
+        <file>Iconos/LeftOff.png</file>
+        <file>Iconos/LOGO OFICIAL CW.png</file>
+        <file>Iconos/logo.jpg</file>
+        <file>Iconos/LowerLeft.png</file>
+        <file>Iconos/LowerLeftOff.png</file>
+        <file>Iconos/LowerRight.png</file>
+        <file>Iconos/LowerRightOff.png</file>
+        <file>Iconos/off.png</file>
+        <file>Iconos/on.png</file>
+        <file>Iconos/RightOff.png</file>
+        <file>Iconos/stop.png</file>
+        <file>Iconos/stopon.png</file>
+        <file>Iconos/up.png</file>
+        <file>Iconos/upOff.png</file>
+        <file>Iconos/UpperLeft.png</file>
+        <file>Iconos/UpperLeftOff.png</file>
+        <file>Iconos/UpperRight.png</file>
+        <file>Iconos/UpperRightOff.png</file>
+    </qresource>
+</RCC>

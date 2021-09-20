@@ -1,0 +1,67 @@
+#include <mainwindow.h>
+#include <ui_mainwindow.h>
+#include <QTimer>
+#include <QSerialPort>
+#include <QSerialPortInfo>
+#include <QDebug>
+
+#include <QTextStream>
+#include <QFile>
+#include <QString>
+#include <qdesktopservices.h>
+#include <QUrl>
+
+void MainWindow::buscaYconectaArduino(){
+    //Parte # 1, declaración inicial de las variables
+    arduino_esta_disponible = false;
+    arduino_puerto = "";
+    arduino = new QSerialPort(this);
+    QString nombreDispositivoSerial = "";
+    int nombreProductID = 0;
+
+    //Parte # 2,buscar puertos con los identificadores de Arduino
+    qDebug() << "Puertos disponibles: " << QSerialPortInfo::availablePorts().length();
+    foreach (const QSerialPortInfo &serialPortInfo, QSerialPortInfo::availablePorts()) {
+        qDebug() << "Identificador del fabricante (VENDOR ID): " << serialPortInfo.hasVendorIdentifier();
+        if(serialPortInfo.hasVendorIdentifier()){
+            qDebug() << "ID Vendedor " << serialPortInfo.vendorIdentifier();
+            qDebug() << "ID Producto: " << serialPortInfo.productIdentifier();
+
+            if(serialPortInfo.productIdentifier() == arduino_UNO || serialPortInfo.productIdentifier() == arduino_MEGA){
+                arduino_esta_disponible = true;
+                nombreDispositivoSerial = serialPortInfo.portName();
+                nombreProductID = serialPortInfo.productIdentifier();
+            }
+        }
+
+    }
+
+    //Parte # 3, conexión del puerto encontrado con Arduino
+
+    if(arduino_esta_disponible){
+        arduino_puerto = nombreDispositivoSerial;
+        arduino ->setPortName(arduino_puerto);
+        arduino->open(QIODevice::ReadWrite);
+        arduino->setDataBits(QSerialPort::Data8);
+        arduino ->setBaudRate(QSerialPort::Baud115200);
+        arduino->setParity(QSerialPort::NoParity);
+        arduino->setStopBits(QSerialPort::OneStop);
+        arduino->setFlowControl(QSerialPort::NoFlowControl);
+        QObject::connect(arduino, SIGNAL(),this,readSerial());
+         ui->StatusInform->clear();
+        qDebug() << "Producto: " << nombreProductID;
+        if(nombreProductID == 29987) ui->label->setText("Arduino UNO R3 conectado");
+        else if(nombreProductID == 68) ui->label->setText("Arduino Mega conectado");
+        else ui->label->setText("Error 3");
+
+
+    }
+    else{
+        ui->label->clear();
+        ui->label->setText("No hay arduino");
+    }
+}
+
+void readSerial(){
+
+}
